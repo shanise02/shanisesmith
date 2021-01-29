@@ -1,0 +1,163 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+hr {
+  color: #EAF6F6;
+  margin: 100px auto 100px auto;
+  border-style: none;
+  border-top: dotted;
+  border-width: 8px;
+  width: 6%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffffff;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.profile {
+  margin: 0 auto 100px auto;
+}
+
+.intro {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.picture {
+  background-color: #EAF6F6;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.code-png {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.graphic-design {
+  width: 25%;
+  float: right;
+  /* Note: only use "float" property for wrapping text around an image. */
+  margin-left: 30px;
+  height: 150px;
+  width: 150px;
+}
+
+.button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 50px auto 100px auto;
+  background-color: #66BFBF;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #11999E;
+  color: #40514E;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
