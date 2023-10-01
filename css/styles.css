@@ -1,32 +1,32 @@
 body {
-  color: #40514E;
+  color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66BFBF;
-  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
 
 hr {
-  color: #EAF6F6;
+  color: #eaf6f6;
   margin: 100px auto 100px auto;
   border-style: none;
   border-top: dotted;
@@ -39,14 +39,14 @@ p {
 }
 
 a {
-  color: #11999E;
+  color: #11999e;
   text-decoration: none;
   margin: 0 auto 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .top-container {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
   position: relative;
   padding-top: 100px;
 }
@@ -56,8 +56,12 @@ a {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   padding: 50px 0 20px 0;
+}
+
+.bottom-container a {
+  color: #fff;
 }
 
 .profile {
@@ -102,7 +106,7 @@ a {
 }
 
 .picture {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -128,36 +132,36 @@ a {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 8px;
-  color: #EAF6F6;
-  font-family: 'Montserrat', sans-serif;
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: bolder;
   padding: 10px;
   margin: 50px auto 100px auto;
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   display: inline-block;
   cursor: pointer;
   text-align: center;
 }
 
 .button:hover {
-  background-color: #11999E;
-  color: #40514E;
+  background-color: #11999e;
+  color: #40514e;
 }
 
 .footer-link {
-  color: #11999E;
+  color: #11999e;
   padding: 20px;
   font-weight: bolder;
   font-size: 20px;
 }
 
 .footer-link:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
